@@ -49,6 +49,8 @@ fun main(args: Array<String>) {
                 onError = { printWithLabel("3)", it) }
         ))
 
+        //Dispose all subscribers
+        subscriptions.dispose()
 
 
 
